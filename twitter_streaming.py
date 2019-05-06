@@ -3,8 +3,7 @@
 # mkdir data
 # python twitter_streaming.py -q weather -n 100 -d data
 #
-# It will produce a list of 100 tweets for the query "weather"
-# in the file data/stream_weather.json
+# This will produce a list of 100 tweets for the query "weather" in the file data/stream_weather.json
 
 import tweepy
 from tweepy import Stream
